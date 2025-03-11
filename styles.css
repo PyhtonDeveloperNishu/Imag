@@ -44,3 +44,36 @@ form{
     border: none;
     cursor: pointer;
 }
+
+.img-con{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 20px;  
+    
+}
+.image-con{
+    width: 450px;
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+    /* border: 2px dotted blueviolet; */
+    border-radius: 5px;
+    
+     
+}
+.img-URL{
+    width: 400px;
+    height: 225px;
+    border-radius: 5px;
+    
+    
+}
+.pera{
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 20px;
+    border-radius: 0px 0px 5px 5px;
+    background-color: white;
+    border: none;
+}
